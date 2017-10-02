@@ -1,0 +1,57 @@
+<link href="main.css" rel="stylesheet">     <!-- este es el link de referencia de css-->
+<link href="config.js" rel="stylesheet">        <!-- este es el link de referencia de javascrip-->
+<div id="test" class="test">Formulario de Registro SINIIGA</div> <hr>
+<!-- Datos Ganadero -->
+<div id="test" class="test">Cedula De Indentificacion de Especie</div>
+    <!-- incio de Informacion del Ganadero -->    
+  <p>Clave UPP:
+  <input type="text" placeholder="UPP" class="inputTask1"/> <!-- con el inputingresa la imformacion a el campo donde se debe guardar-->
+  <p>Nombre del Productor:
+  <input type="text" placeholder="Productor" class="inputTask1"/><br>
+    <p>Nombre del Predio:
+  <input type="text" placeholder="Predio" class="inputTask1"/>
+      <p>Nombre del Tecnico Identificador:
+        <input type="text" placeholder="Tecnico Identificador" class="inputTask1"/> 
+        <p>Serie del:
+        <input type="text" placeholder="Serie" class="inputTask1"/>
+          <p>Al:
+        <input type="text" placeholder="Serie" class="inputTask1"/><p aling="ringt">Total de Paquetes Completos:
+        <input type="text" placeholder="Paquetes Completos" class="inputTask1"/>
+            <P>Fecha de Aretado:
+          <input type="date"><br>     <!-- con el  input type="date" ingresa fechas -->
+            <!-- Boton Guardar -->
+  <button onclick="sort()">Guardar</button>    <!-- esto es un boton en el que se hace click para poder usar la accion-->
+  <div id="Datos Guardados Exitosamente"></div>  
+            
+               <div>
+                   
+            <table border="1">             <!-- en esto se crea la tabla que que  contentra todos los datos-->
+                <TR BGCOLOR="GRAY"><TD COLSPAN=7>DATOS OBLIGATORIOS</TD>  <!--se le da color el color a la fila y se difine cuantas celdas ocupara este campo -->
+                <TD COLSPAN=3>RAZA O NO. SINIIGA</TD></TR>
+                <tr bgcolor="gray"> 
+                    <th>NO.</th>         <!--se ingresan los datos que se le dara a las filas-->
+                    <th>NO.SINIIGA</th>
+                    <TH>ARETE CAMPAÑA</TH>
+                    <th>FECHA DE NACIMIENTO </th>
+                    <th>SEXO</th>
+                    <TH> RAZA</TH>
+                    <TH>ESPECIFICAR RAZA/CRUZA</TH>
+                    <TH>EMPADRE</TH>
+                    <TH>PADRE</TH>
+                    <th> MADRE</th>
+                </tr>
+                <td><input type="int" placeholder="no" class="inputTask1"/></td>    <!--con input type se ingresan los datos  -->
+                <td><input type="int" placeholder="no. siniiga" class="inputTask1"/></td>
+                <td><input type="text" placeholder="campaña" class="inputTask1"/></td>
+                <td><input type="date" placeholder="no" class="inputTask1"/></td>
+                <td><input type="text" placeholder="sexo" class="inputTask1"/></td>
+                <td><input type="text" placeholder="raza" class="inputTask1"/></td>
+                <td><input type="text" placeholder="especifica" class="inputTask1"/></td>
+                <td><input type="text" placeholder="empadre" class="inputTask1"/></td>
+                <td><input type="text" placeholder="padre" class="inputTask1"/></td>
+                <td><input type="text" placeholder="madre" class="inputTask1"/></td>
+                
+         
+              
+          </table>
+          </div>
